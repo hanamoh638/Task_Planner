@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|c:\\users\\hp\\source\\repos\\concept_task\\concepts_oop\\concepts_oop\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|solutionrelative:concepts_oop\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|c:\\users\\hp\\source\\repos\\concept_task\\concepts_oop\\concepts_oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|solutionrelative:concepts_oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|c:\\users\\hp\\source\\repos\\concept_task\\concepts_oop\\concepts_oop\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|solutionrelative:concepts_oop\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|c:\\users\\hp\\source\\repos\\concept_task\\concepts_oop\\concepts_oop\\jsonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|solutionrelative:concepts_oop\\jsonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|c:\\users\\hp\\source\\repos\\concept_task\\concepts_oop\\concepts_oop\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|solutionrelative:concepts_oop\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|c:\\users\\hp\\source\\repos\\concept_task\\concepts_oop\\concepts_oop\\datetimeretrieval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71969DB0-0FDE-4388-BD56-A19840639446}|Concepts_OOP\\Concepts_OOP.csproj|solutionrelative:concepts_oop\\datetimeretrieval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JsonHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\JsonHandler.cs",
+              "RelativeDocumentMoniker": "Concepts_OOP\\JsonHandler.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\JsonHandler.cs",
+              "RelativeToolTip": "Concepts_OOP\\JsonHandler.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:39:39.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\Task.cs",
+              "RelativeDocumentMoniker": "Concepts_OOP\\Task.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\Task.cs",
+              "RelativeToolTip": "Concepts_OOP\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:26:33.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DateTimeRetrieval.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\DateTimeRetrieval.cs",
+              "RelativeDocumentMoniker": "Concepts_OOP\\DateTimeRetrieval.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\DateTimeRetrieval.cs",
+              "RelativeToolTip": "Concepts_OOP\\DateTimeRetrieval.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:23:11.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tasks.json",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\tasks.json",
+              "RelativeDocumentMoniker": "Concepts_OOP\\tasks.json",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\tasks.json",
+              "RelativeToolTip": "Concepts_OOP\\tasks.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T18:27:37.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\TaskManager.cs",
+              "RelativeDocumentMoniker": "Concepts_OOP\\TaskManager.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\TaskManager.cs",
+              "RelativeToolTip": "Concepts_OOP\\TaskManager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAADkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:30:13.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\Program.cs",
+              "RelativeDocumentMoniker": "Concepts_OOP\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Concept_Task\\Concepts_OOP\\Concepts_OOP\\Program.cs",
+              "RelativeToolTip": "Concepts_OOP\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T18:09:33.097Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
