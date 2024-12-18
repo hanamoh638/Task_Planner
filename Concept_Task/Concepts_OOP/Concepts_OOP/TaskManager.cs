@@ -25,41 +25,77 @@ namespace Concepts_OOP
         }
 
 
-        public void AddTask(Task task)
-        {
-            int count = 0;
-            foreach (var _ in taskArray)
-            {
-                count++;
-            }
-
-            int SizeOfGetLength = count;
-
-            if (this.count == SizeOfGetLength)
-            {
-                int newSize = SizeOfGetLength == 0 ? 1 : SizeOfGetLength * 2;
-                Task[] newArray = new Task[newSize];
-                for (int i = 0; i < this.count; i++)
-                {
-                    newArray[i] = taskArray[i];
-                }
-                taskArray = newArray;
-            }
-
-            taskArray[this.count] = task;
-            this.count++;
-
-            jsonHandler.WriteToJson(task);
-        }
-
-       public void RemoveTaskById(int id)
+      //------------------
+       public void AddTask(Task task)
  {
-     // Load tasks directly from the JSON file
-     List<Task> loadedTasks = jsonHandler.LoadFromJson();
+     int count = 0;
+     foreach (var _ in taskArray)
+     {
+         count++;
+     }
 
-     // Find the index of the task with the specified ID
+     int SizeOfGetLength = count;
+
+     if (this.count == SizeOfGetLength)
+     {
+         int newSize = SizeOfGetLength == 0 ? 1 : SizeOfGetLength * 2;
+         Task[] newArray = new Task[newSize];
+         for (int i = 0; i < this.count; i++)
+         {
+             newArray[i] = taskArray[i];
+         }
+         taskArray = newArray;
+     }
+
+     taskArray[this.count] = task;
+     this.count++;
+
+     jsonHandler.WriteToJson(task);
+ }
+
+ ///update function
+// New UpdateTask method
+ public bool UpdateTask(int id, int? newPriority = null, string newStatus = null)
+ {
+     List<Task> loadedTasks = jsonHandler.LoadFromJson();
+     Task taskToUpdate = loadedTasks.FirstOrDefault(t => t.Id == id);
+
+     if (taskToUpdate == null)
+     {
+         Console.WriteLine($"Task with ID {id} not found.");
+         return false;
+     }
+
+     if (newPriority.HasValue)
+     {
+         taskToUpdate.Priority = newPriority.Value;
+         Console.WriteLine($"Updated Task ID {id}'s Priority to {newPriority.Value}");
+     }
+
+     if (!string.IsNullOrWhiteSpace(newStatus))
+     {
+         taskToUpdate.Status = newStatus;
+         Console.WriteLine($"Updated Task ID {id}'s Status to {newStatus}");
+     }
+
+     // Save the updated list back to the JSON file
+     jsonHandler.OverwriteJson(loadedTasks);
+
+     return true;
+ }
+ //------------------------------------------------------------------------
+ public bool RemoveTaskById(int id)
+ {
+     List<Task> loadedTasks = jsonHandler.LoadFromJson();
+     int count = 0;
+     foreach (var task in loadedTasks)
+     {
+         if (task != null)
+             count++;
+     }
+
      int indexToRemove = -1;
-     for (int i = 0; i < loadedTasks.Count; i++)
+     for (int i = 0; i < count; i++)
      {
          if (loadedTasks[i].Id == id)
          {
@@ -71,23 +107,48 @@ namespace Concepts_OOP
      // If the task is found, remove it manually
      if (indexToRemove != -1)
      {
-         // Shift all tasks after the removed task to the left by one position
-         for (int i = indexToRemove; i < loadedTasks.Count - 1; i++)
-         {
-             loadedTasks[i] = loadedTasks[i + 1];
-         }
+         loadedTasks = RemoveAtCustom(loadedTasks, indexToRemove);
 
-         // Remove the last task in the list (after shifting)
-         loadedTasks.RemoveAt(loadedTasks.Count - 1);
-
-         // Write the updated list back to the JSON file
          jsonHandler.OverwriteJson(loadedTasks);
+
+         Console.WriteLine($"Task with ID {id} has been removed.");
+         return true;
      }
      else
      {
          Console.WriteLine($"Task with ID {id} not found.");
+         return false;
      }
  }
+
+
+ // Custom function to remove an item from a list at a specific index
+ private List<Task> RemoveAtCustom(List<Task> tasks, int indexToRemove)
+ {
+     List<Task> newList = new List<Task>();
+
+     int count = 0;
+     foreach (var task in tasks)
+     {
+         if (task != null)
+             count++;
+     }
+
+     for (int i = 0; i < count; i++)
+     {
+         if (i != indexToRemove)
+         {
+             newList.Add(tasks[i]);
+         }
+     }
+
+     return newList;
+ }
+ //load from file
+
+
+
+      //-------------------
 
 
         public Task[] LoadedTasks()
